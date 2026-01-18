@@ -73,9 +73,14 @@ curl -X POST http://localhost:5173/books \
 自前実装はmainのブランチ  
 [main](https://github.com/Yanai1005/API-Noation-db/tree/main)
 
+該当ファイル
+https://github.com/Yanai1005/api-notion-db/blob/17bdf4ca8e545d0f308a6890b80b35365e23aafe/src/index.tsx#L1-L120
 
 notionhqの実装はnotionhqのブランチ   
 [notionhq](https://github.com/Yanai1005/API-Noation-db/tree/notionhq)
+
+該当ファイル
+https://github.com/Yanai1005/api-notion-db/blob/88b0885743e5dcae4d65943fe3cb6d0fc1b5b964/src/index.tsx#L1-L62
 
 
 
