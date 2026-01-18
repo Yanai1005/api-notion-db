@@ -1,4 +1,19 @@
+# notion db api
+Notion APIを使用してデータベース操作（GET/POST）を実装・検証するプロジェクトです。
+Cloudflare Workers環境でのNotion API連携の動作確認が目的です。
+## 概要
+- Notion APIを使ったデータベースの読み取り・書き込み
+- Cloudflare Workers + Honoでの軽量APIサーバー構築
+- `@notionhq/client` v5.x の新しいAPI（`dataSources`）の使用例
 
+## 検証用データベース構造
+
+Notionに以下の構造のデータベースを作成します：
+
+| プロパティ名 | 型 | 説明 |
+|------------|------|------|
+| name | Title | 書籍名（必須） |
+| isbn | Number | ISBNコード |
 ## 環境
 ```bash
 > npx
