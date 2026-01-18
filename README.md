@@ -1,5 +1,5 @@
-# notion db api
-Notion APIを使用してデータベース操作（GET/POST）を実装・検証するプロジェクトです。
+# notion db api検証
+Notion APIを使用してデータベース操作（GET/POST）を実装・検証するプロジェクトです。    
 Cloudflare Workers環境でのNotion API連携の動作確認が目的です。
 ## 概要
 - Notion APIを使ったデータベースの読み取り・書き込み
